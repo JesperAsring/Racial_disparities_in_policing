@@ -245,5 +245,5 @@ for($p = 1; $p <= $K; $p++){
 }
 
 // Return the array back to Qualtrics
-print  json_encode($returnarray);
+print  json_encode($returnarray, JSON_UNESCAPED_UNICODE);
 ?>
